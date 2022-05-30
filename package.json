@@ -1,0 +1,20 @@
+{
+  "name": "overrides-mismatch-repro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TxHawks",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "syncpack": "^7.2.2"
+  },
+  "pnpm": {
+    "overrides": {
+      "eslint": "^8.16.0"
+    }
+  }
+}
